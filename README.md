@@ -1,6 +1,6 @@
 ## Eginn — VIATREE
 
-Independent founder working on **electronic document authentication** and **self-hosted AI infrastructure**.
+Independent **security researcher** — electronic travel document authentication (**eMRTD / ePassport, ICAO 9303 & PKI**) and **self-hosted AI security infrastructure**. Founder, VIATREE.
 
 ---
 
