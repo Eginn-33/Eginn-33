@@ -20,7 +20,7 @@ Fully on-device — MRZ OCR, the chip session and signature validation never lea
 
 Python tooling for the ICAO 9303 PKI stack — BAC, PACE, Active Authentication, Chip Authentication, Terminal Authentication, Passive Authentication.
 
-Extracted and parsed **588 CSCA certificates across 114 countries** from the German BSI Master List. Analysed how `AA_Failed` / `CA_Failed` surface as independent error conditions across commercial SDKs (Regula Document Reader) and open-source validators (OST Kinegram eMRTD Validator).
+Extracted and parsed **581 CSCA certificates across 112 countries** from the German BSI Master List. Analysed how `AA_Failed` / `CA_Failed` surface as independent error conditions across commercial SDKs (Regula Document Reader) and open-source validators (OST Kinegram eMRTD Validator).
 
 Also used to disprove a third-party claim of having defeated AA and CA verification: the observed Passive Authentication failure was evidence *against* the claim, not for it.
 
