@@ -12,7 +12,7 @@ An iPhone app that runs the same cryptographic passport check used at airport im
 
 Fully on-device — MRZ OCR, the chip session and signature validation never leave the phone. No accounts, no server calls, no images uploaded.
 
-→ [epassport-web.vercel.app](https://epassport-web.vercel.app) · [site source](https://github.com/Eginn-33/epassport-web)
+→ [App Store](https://apps.apple.com/us/app/icao-epassport-inspector/id6762305723) · [epassport-web.vercel.app](https://epassport-web.vercel.app) · [site source](https://github.com/Eginn-33/epassport-web)
 
 ---
 
