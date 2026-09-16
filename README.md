@@ -40,9 +40,23 @@ Windows control plane to WSL2 GPU worker, Electron desktop client, macOS/iOS run
 
 ---
 
-### 🌳 VIATREE OS
+### 📱 PRISM — remote iPhone console
 
-AI-autonomous company operating system on a dedicated VPS. Seven departments and 27+ agents, each department locked to a **different model vendor** — R&D, Production, QA, Sales, Finance, Support, Ops routed across Claude, GPT, Perplexity, DeepSeek, Qwen, MiniMax and GLM — so no single provider outage stops the system.
+Device-security research turned into a working console: how far a stock, non-jailbroken iPhone can be legitimately reached from a Windows PC across arbitrary networks — no jailbreak, no exploit, no cable, developer-signed on owned hardware.
+
+Existing iOS mirroring tools land in one of two buckets: view-only, or touch via Bluetooth pairing — which puts the computer in the same room as the phone. PRISM does neither. Screen and input travel over a single end-to-end encrypted link, so the PC and the phone never have to share a network.
+
+`iOS 26.5.2` · `live screen + touch injection` · `text input` · `hardware buttons` · `multi-terminal handover (~1s switchover)`
+
+**Measured:** 108 minutes continuous with the phone off Wi-Fi on carrier data only — 205 probes, 2 failures, both inside the Wi-Fi→cellular handover. Not yet verified: tower handover with the phone physically off-site.
+
+---
+
+### 🌳 VIATREE
+
+The platform I'm building to turn security research into something usable — packaging tooling, findings and demo material into verifiable, shareable outputs, with a distribution and delivery pipeline of its own. Same discipline as everything else here: nothing ships as a claim unless it's measured.
+
+*In active development.*
 
 → [viatreebot.com](https://viatreebot.com)
 
