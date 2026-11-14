@@ -18,7 +18,7 @@ Intended for my own devices only. Source not public.
 
 ---
 
-### 🛂 ICAO ePassport Inspector
+### 🛂 ICAO ePassport Inspector — a VIATREE product
 
 An iPhone app that runs the same cryptographic passport check used at airport immigration counters — implemented directly against the ICAO 9303 standard rather than wrapped around a commercial SDK.
 
