@@ -1,4 +1,4 @@
-## Elias Chen — VIATREE
+## Elias (Eginn) Chen — VIATREE
 
 Independent **security researcher** — electronic travel document authentication (**eMRTD / ePassport, ICAO 9303 & PKI**) and **self-hosted AI security infrastructure**. Chairman, VIATREE.
 
