@@ -70,6 +70,18 @@ Native iOS. iOS does not let an app operate other apps, so acting on the phone n
 
 ---
 
+### 🧪 VIATREE BOT — desktop AI assistant app and security-domain models
+
+A personal AI assistant app for your desktop, and the security-domain language models I am training for it, fine-tuned from open-weight Qwen3 bases on a single A100 80GB.
+
+- Method: refusal-direction ablation, then LoRA supervised fine-tuning on security corpora
+- Release gate on a self-built 72-question probe set: hard-refusal rate at most **15%**, false-pass rate at most **5%**, perplexity ratio at most **1.05**; a candidate that misses one does not ship
+- 4B clears all three; 32B text holds perplexity ratio at **1.0013** but sits at **10.7%** false-pass; a 32B vision-language model is merged with the same gap; the first 14B run failed and will be redone
+
+*In active development, not released. Numbers are my own measurements. Stay tuned.*
+
+---
+
 ### 🌳 VIATREE
 
 The platform I'm building to turn security research into something usable — packaging tooling, findings and demo material into verifiable, shareable outputs, with a distribution and delivery pipeline of its own. Same discipline as everything else here: nothing ships as a claim unless it's measured.
