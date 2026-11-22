@@ -54,6 +54,22 @@ Windows control plane to WSL2 GPU worker, Electron desktop client, macOS/iOS run
 
 ---
 
+### 🤖 Her (她) — an agent that lives on your iPhone
+
+An agent that stays on your phone's screen, reads what is on it, and carries out what you ask in one sentence.
+
+- Reads the screen **on-device** (about 0.6 s), also from the background
+- Multi-step tasks: tap by label, search, pick the n-th result, go back, scroll, **up to six steps in a row**
+- Route memory: the same three-step request took **49.8 s** the first time and **18.4 s** the second
+- Safety gate: never taps pay or delete; taps Send only if you said to; does nothing while the phone is locked
+- Heavier reasoning runs on your own computer; the phone falls back to Apple's on-device model when it is unreachable
+
+Native iOS. iOS does not let an app operate other apps, so acting on the phone needs the paired computer.
+
+*In active development, not released.*
+
+---
+
 ### 🌳 VIATREE
 
 The platform I'm building to turn security research into something usable — packaging tooling, findings and demo material into verifiable, shareable outputs, with a distribution and delivery pipeline of its own. Same discipline as everything else here: nothing ships as a claim unless it's measured.
